@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/nav-bar.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <script src="../js/nav-bar.js" defer></script>
-    <title>Gemeindezentrum Trier-West</title>
+    <script src="../js/nav-bar.js" type="text/javascript" defer></script>
+    <title>Veranstaltungsmuster</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             </a>
             <div class="navbar-links">
                 <ul>
-                    <li><a href="Veranstaltungen.html">Veranstaltungen</a></li>
+                    <li><a class="aktuell" href="Veranstaltungen.html">Veranstaltungen</a></li>
                     <li><a href="#">Räume</a></li>
                     <li><a href="ÜberUns.html">Über Uns</a></li>
                     <li><a href="#">Galerie</a></li>
@@ -34,29 +34,40 @@
         </nav>
     </header>
 
-    <!--Main-Content-->
+
     <main>
-        <div class="slider">
-            <div class="slide">
-                <img src="../../img/veranstaltung1.jpg" alt="Veranstaltung">
-            </div>
-        </div>
-        <div class="news">
-            <div class="news-feld">
-                <a href="#"><img src="../../img/weihnachtsmarkt.jpg" alt="Trier Weihnachtsmarkt" class="newsbild"></a>
-                <h1><a href="#">Weihnachtsmarkt</a></h1>
-                <p>Die Vorfreude ist riesig: der Trierer Weihnachtsmarkt hat am Freitag, 18.11.2022 begonnen. Nach
-                    zweijährige Corona-Pause kehrt er beinahe im Normalzustand zurück,... <a href="#">weiterlesen</a>
-                </p>
-            </div>
-            <div class="news-feld">
-                <a href="#"><img src="../../img/corona.jpg" alt="Corona" class="newsbild"></a>
-                <h1><a href="#" class="titel">Corona Regelung</a></h1>
-                <p>Corona ist noch nicht vorbei. Um unsere älteren Mitbürger zu schützen klären wir sie weiter auf. Bei
-                    Infektionssymptomen bleiben sie bitte Zuhause...<a href="#">weiterlesen</a></p>
-            </div>
-        </div>
+
+        <button class="vButton">
+            <a href="Veranstaltungen.html">
+                Zurück zur Veranstaltungs-Übersicht
+            </a>
+        </button>
+
+        <h1 class="vTitel">
+            Veranstaltungsmuster 1
+        </h1>
+        <p class="schlagwort">
+            Musterschlagwörter
+        </p>
+        <p class="datum">
+            am XX.XX.20XX um XX:XX Uhr, Mustersaal
+        </p>
+        <p class="beschreibung">
+            Dies ist lediglich ein Muster.
+            <br>
+            Es ist jetzt nicht besonders schön, aber hier steckt viel Arbeit drin.
+            <br><br>
+            Vielleicht mach ich aus dem Muster mal die Rentnerdisco. Wer weis.
+        </p>
+
+        <button class="vButton">
+            <a href="Kontakte.html">
+                Weiter zur Kontaktseite mit Formular
+            </a>
+        </button>
+
     </main>
+
 
     <!--Footer-->
     <footer>
